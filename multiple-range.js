@@ -42,7 +42,7 @@ function moveRange (elem) {
     if (elem.children.length){
        	elem.innerHTML = '';//обнуляем предыдущее значение
     }
-	elem.append(indicator);
+	elem.appendChild(indicator);
 
 	document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('mouseup', onMouseUp);
